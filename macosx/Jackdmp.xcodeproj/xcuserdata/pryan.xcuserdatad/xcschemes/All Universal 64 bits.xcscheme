@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B35C6420D47339B000DE7AE"
-               BuildableName = "All Universal 32/64 bits"
-               BlueprintName = "All Universal 32/64 bits"
+               BuildableName = "All Universal 64 bits"
+               BlueprintName = "All Universal 64 bits"
                ReferencedContainer = "container:Jackdmp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B35C6420D47339B000DE7AE"
-            BuildableName = "All Universal 32/64 bits"
-            BlueprintName = "All Universal 32/64 bits"
+            BuildableName = "All Universal 64 bits"
+            BlueprintName = "All Universal 64 bits"
             ReferencedContainer = "container:Jackdmp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,8 +61,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B35C6420D47339B000DE7AE"
-            BuildableName = "All Universal 32/64 bits"
-            BlueprintName = "All Universal 32/64 bits"
+            BuildableName = "All Universal 64 bits"
+            BlueprintName = "All Universal 64 bits"
             ReferencedContainer = "container:Jackdmp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

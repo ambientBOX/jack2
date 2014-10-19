@@ -6,10 +6,12 @@
 	<dict>
 		<key>All Universal 32 bits.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>All Universal 32/64 bits.xcscheme</key>
+		<key>All Universal 64 bits.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		4B35C6420D47339B000DE7AE /* All Universal 32/64 bits */ = {
+		4B35C6420D47339B000DE7AE /* All Universal 64 bits */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4B35C6790D47339B000DE7AE /* Build configuration list for PBXAggregateTarget "All Universal 32/64 bits" */;
+			buildConfigurationList = 4B35C6790D47339B000DE7AE /* Build configuration list for PBXAggregateTarget "All Universal 64 bits" */;
 			buildPhases = (
 			);
 			dependencies = (
@@ -53,7 +53,7 @@
 				4B8F16FC1329169F0002AD73 /* PBXTargetDependency */,
 				4B20220C133A9C370019E213 /* PBXTargetDependency */,
 			);
-			name = "All Universal 32/64 bits";
+			name = "All Universal 64 bits";
 			productName = All;
 		};
 		4B699B26097D421600A18468 /* All Universal 32 bits */ = {
@@ -6381,7 +6381,7 @@
 			projectRoot = "";
 			targets = (
 				4B699B26097D421600A18468 /* All Universal 32 bits */,
-				4B35C6420D47339B000DE7AE /* All Universal 32/64 bits */,
+				4B35C6420D47339B000DE7AE /* All Universal 64 bits */,
 				4B699BA7097D421600A18468 /* jackdmp framework Universal */,
 				4B699C00097D421600A18468 /* Jackmp.framework Universal */,
 				4B699C4C097D421600A18468 /* Jackservermp.framework Universal */,
@@ -19163,7 +19163,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
 		};
-		4B35C6790D47339B000DE7AE /* Build configuration list for PBXAggregateTarget "All Universal 32/64 bits" */ = {
+		4B35C6790D47339B000DE7AE /* Build configuration list for PBXAggregateTarget "All Universal 64 bits" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B35C67A0D47339B000DE7AE /* Development */,
