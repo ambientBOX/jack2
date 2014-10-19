@@ -134,9 +134,9 @@ extern "C"
     #define LOG_LEVEL_INFO   1
     #define LOG_LEVEL_ERROR  2
 
-    LIB_EXPORT void jack_error(const char *fmt, ...);
-    LIB_EXPORT void jack_info(const char *fmt, ...);
-    LIB_EXPORT void jack_log(const char *fmt, ...);
+    SERVER_EXPORT void jack_error(const char *fmt, ...);
+    SERVER_EXPORT void jack_info(const char *fmt, ...);
+    SERVER_EXPORT void jack_log(const char *fmt, ...);
 
 #ifdef __cplusplus
 }
@@ -1225,7 +1225,7 @@ static void jack_format_and_log(int level, const char *prefix, const char *fmt, 
     }
 }
 
-LIB_EXPORT void jack_error(const char *fmt, ...)
+SERVER_EXPORT void jack_error(const char *fmt, ...)
 {
     va_list ap;
     va_start(ap, fmt);
@@ -1233,7 +1233,7 @@ LIB_EXPORT void jack_error(const char *fmt, ...)
     va_end(ap);
 }
 
-LIB_EXPORT void jack_info(const char *fmt, ...)
+SERVER_EXPORT void jack_info(const char *fmt, ...)
 {
     va_list ap;
     va_start(ap, fmt);
@@ -1241,7 +1241,7 @@ LIB_EXPORT void jack_info(const char *fmt, ...)
     va_end(ap);
 }
 
-LIB_EXPORT void jack_log(const char *fmt, ...)
+SERVER_EXPORT void jack_log(const char *fmt, ...)
 {
     va_list ap;
     va_start(ap, fmt);
