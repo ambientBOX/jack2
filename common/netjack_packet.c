@@ -1291,9 +1291,9 @@ render_payload_to_jack_ports_celt (void *packet_payload, jack_nframes_t net_peri
                 celt_decode_float( decoder, packet_bufX, net_period_down, buf, nframes );
 #else
             if( !packet_payload )
-                celt_decode_float( decoder, NULL, net_period_down, buf );
+                celt_decode_float( decoder, NULL, net_period_down, buf, NULL);
             else
-                celt_decode_float( decoder, packet_bufX, net_period_down, buf );
+                celt_decode_float( decoder, packet_bufX, net_period_down, buf, NULL);
 #endif
 
             src_node = jack_slist_next (src_node);
